@@ -1,0 +1,30 @@
+#actor {
+   padding: 40px 0;
+   // background: #5955556a;
+   .actor{
+      display: flex;
+      align-items: flex-start;
+      // justify-content: center;
+      padding: 20px 0;
+      overflow-x: auto;
+      &--card {
+         -webkit-box-shadow: 16px 14px 15px 3px rgba(4, 4, 4, 0.2);
+-moz-box-shadow: 16px 14px 15px 3px rgba(4, 4, 4, 0.2);
+box-shadow: 16px 14px 15px 3px rgba(4, 4, 4, 0.2);
+
+         border: 2px double #000;
+         border-radius: 10px;
+         margin: 0 20px; 
+
+         img {
+            border-radius: 10px;
+         }
+         &__user {
+            width: 200px;
+            height: 330px;
+            object-fit: cover;
+            // border: 2px double gray;
+         }
+      }
+   }
+}

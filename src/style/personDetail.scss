@@ -1,0 +1,17 @@
+#personDetail {
+   padding-top: 80px;
+   .personDetail {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // width:600px;
+      // height: 600px;
+   }
+   img {
+      border-radius: 20px;
+   }
+   p {
+      font-weight: 700;
+      font-size: 15px;
+   }
+}

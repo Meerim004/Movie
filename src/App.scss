@@ -1,0 +1,27 @@
+@import 'src/style/header.scss';
+@import 'src/style/home.scss';
+@import 'src/style/popular.scss';
+@import 'src/style/topRated.scss';
+@import 'src/style/movieDetail.scss';
+@import 'src/style/actor.scss';
+@import 'src/style/trailer.scss';
+@import 'src/style/personDetail.scss';
+
+
+
+
+
+
+.container {
+   width: 90%;
+   margin: 0 auto;
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+
+ a {
+    text-decoration: none;
+ }
+
